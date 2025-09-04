@@ -32,10 +32,10 @@ enter number of rows: 8
 12345678
 ```
 ```
-4) rows=int(input("enter number of rows:"))
-  for i in range(rows):
-      print(" "*(i),end="")
-      print("*" * (2*(rows-i)-1))
+3) rows=int(input("enter number of rows:"))
+   for i in range(rows):
+       print(" "*(i),end="")
+       print("*" * (2*(rows-i)-1))
 ```
 - Example Run
 ```
@@ -47,7 +47,7 @@ enter number of rows: 5
     *
 ```  
 ```
-3) rows= int(input("Enter number of rows:"))
+4) rows= int(input("Enter number of rows:"))
    for i in range(rows):
        print(" "*(rows-i-1),end="")
        print("*" * (2 *i+1))
