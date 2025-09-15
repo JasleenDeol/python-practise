@@ -1,4 +1,5 @@
 ## Library Management
+## Code :
 ```
 class book():
     def __init__(self,title,author):
@@ -47,7 +48,7 @@ while True:
     if choice =="1":
         lib.show_book()
     elif choice == "2":
-        book= input("Enter Book title:")
+        title = input("Enter Book title:")
         lib.borrow_book(title)
     elif choice== "3":
         print("Exit")
@@ -55,6 +56,43 @@ while True:
     else:
         print("Wrong choice")
 ```
+## Example Output :
+```
+---Library Menu----
+1. Show all Books
+2 Borrow abook
+3. Exit
+Enter choice: 1
+Python Basic by John Doe- available
+OOP in Python by Jane Smith- available
+Data Science 101 by Emily Brown- available
+
+---Library Menu----
+1. Show all Books
+2 Borrow abook
+3. Exit
+Enter choice: 2
+Enter Book title: python basic
+You borrowed Python Basic.
+
+---Library Menu----
+1. Show all Books
+2 Borrow abook
+3. Exit
+Enter choice: 1
+Python Basic by John Doe- not available
+OOP in Python by Jane Smith- available
+Data Science 101 by Emily Brown- available
+
+---Library Menu----
+1. Show all Books
+2 Borrow abook
+3. Exit
+Enter choice: 3
+Exit
+```
+
+
 
         
         
