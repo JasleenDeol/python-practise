@@ -7,7 +7,7 @@ print("matrix:")
 print(x)
 
 arr1=np.array([[ 1,2,3,4],[5,6,7,8],[9,10,11,12]])
-x= arr2[1]
+x= arr1[1]
 print("2nd row:",x)
 y= arr1[0:3,3]
 print("Last column:",y)
